@@ -17,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "test",
-  description: "thats cool",
+  title: "Easybutton Studios",
+  description: "The really cool indie gamedev",
 };
 
 export default function RootLayout({
