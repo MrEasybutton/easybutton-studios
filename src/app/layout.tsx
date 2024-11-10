@@ -34,7 +34,7 @@ export default function RootLayout({
     <div className="bg-gradient-to-br from-slate-900 to-slate-800">
       <header
           className={"h-fit px-2 py-4 text-left text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-cyan-200 to-pink-600 drop-shadow-2xl"}>
-        <h1 className={martianMono.className}>testing</h1>
+        <h1 className={martianMono.className}>Easybutton Studios</h1>
 
       </header>
     </div>

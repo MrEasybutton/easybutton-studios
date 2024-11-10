@@ -13,10 +13,10 @@ export default function Home() {
             <div>
                 <h1
                     className="text-7xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-transparent bg-gradient-to-br from-cyan-500 to-fuchsia-500 bg-clip-text hover:drop-shadow-md transition duration-200">
-                    TEST
+                    Easybutton Studios
                 </h1>
                 <h2 className="text-2xl font-bold text-slate-200 p-2">
-                    tagline
+                    top 10 skibidi
                 </h2>
                 <div className="space-x-5 p-4">
                     <a href="https://easybutton-studios.itch.io/">
