@@ -50,10 +50,11 @@ const ParticleCanvas = () => {
         const colors = [];
         for (let i = 0; i < particlesCount; i++) {
             const randomColor = allColors[Math.floor(Math.random() * allColors.length)];
-            colors.push((randomColor >> 16) & 0xff) / 255;
-            colors.push((randomColor >> 8) & 0xff) / 255;
-            colors.push(randomColor & 0xff) / 255;
+            colors.push(((randomColor >> 16) & 0xff) / 255);  // Red channel
+            colors.push(((randomColor >> 8) & 0xff) / 255);   // Green channel
+            colors.push((randomColor & 0xff) / 255);          // Blue channel
         }
+
 
         particlesGeometry.setAttribute(
             "color",
