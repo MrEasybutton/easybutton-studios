@@ -9,20 +9,16 @@ export const Dock = () => {
                 <div className=
                          "space-x-2 drop-shadow-2xl px-0.5 py-1">
                     <Link href="/" className={
-                        "bg-slate-900 border rounded-md px-4 py-1.5 border-slate-200 hover:text-indigo-200 hover:bg-blue-900 transition duration-600"}>
-                        Home
+                        "bg-slate-900 border w-10 h-10 shrink-0 grow-0 rounded-full px-1 py-1.5 border-slate-200 hover:text-indigo-200 hover:bg-blue-900 transition duration-600"}>
+                        🌍️
                     </Link>
-                    <Link href="/about" className={
-                        "bg-slate-900 border rounded-md px-4 py-1.5 border-slate-200 hover:text-indigo-200 hover:bg-[#8a8066] transition duration-600"}>
-                        About
+                    <Link href="/" className={
+                        "bg-slate-900 border w-10 h-10 shrink-0 grow-0 rounded-full px-1 py-1.5 border-slate-200 hover:text-indigo-200 hover:bg-blue-900 transition duration-600"}>
+                        🕒
                     </Link>
-                    <Link href="/projects" className={
-                        "bg-slate-900 border rounded-md px-4 py-1.5 border-slate-200 hover:text-indigo-200 hover:bg-[#6a8a66] transition duration-600"}>
-                        Projects
-                    </Link>
-                    <Link href="/login" className={
-                        "bg-slate-900 border rounded-md px-4 py-1.5 border-slate-200 hover:text-indigo-200 hover:bg-[#7a4279] transition duration-600"}>
-                        Login
+                    <Link href="/" className={
+                        "bg-slate-900 border w-10 h-10 shrink-0 grow-0 rounded-full px-1 py-1.5 border-slate-200 hover:text-indigo-200 hover:bg-blue-900 transition duration-600"}>
+                        🌤️
                     </Link>
                 </div>
 
