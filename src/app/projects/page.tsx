@@ -13,13 +13,14 @@ const Projects = () => {
         return () => clearInterval(interval);
     }, []);
 
-    const handleMouseMove = (e: { currentTarget: { getBoundingClientRect: () => any; }; clientX: number; clientY: number; }) => {
+    const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
         const rect = e.currentTarget.getBoundingClientRect();
         setMousePosition({
             x: ((e.clientX - rect.left) / rect.width) * 100,
-            y: ((e.clientY - rect.top) / rect.height) * 100
+            y: ((e.clientY - rect.top) / rect.height) * 100,
         });
     };
+
 
     const distortionIntensity = () => {
         const centerX = 50;
@@ -140,7 +141,7 @@ const Projects = () => {
                                 textShadow: `0 0 10px rgba(148, 163, 184, ${0.1 + distortionIntensity() * 0.2})`
                             }}
                         >
-                            The cool stuff I've made and will make
+                            The cool stuff I&#39;ve made and will make
                         </p>
                     </section>
 

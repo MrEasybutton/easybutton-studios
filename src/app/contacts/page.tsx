@@ -13,13 +13,14 @@ const Contacts = () => {
         return () => clearInterval(interval);
     }, []);
 
-    const handleMouseMove = (e: { currentTarget: { getBoundingClientRect: () => any; }; clientX: number; clientY: number; }) => {
+    const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
         const rect = e.currentTarget.getBoundingClientRect();
         setMousePosition({
             x: ((e.clientX - rect.left) / rect.width) * 100,
-            y: ((e.clientY - rect.top) / rect.height) * 100
+            y: ((e.clientY - rect.top) / rect.height) * 100,
         });
     };
+
 
     const distortionIntensity = () => {
         const centerX = 50;
